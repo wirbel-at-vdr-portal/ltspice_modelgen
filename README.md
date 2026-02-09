@@ -1,6 +1,8 @@
 # ltspice_modelgen
 A spice diode model generator
 
+![Image](examples/diode_modelgen.jpg)
+
 # Howto
 
 1. Get the datasheet of the diode.
