@@ -15,6 +15,9 @@ So be shure to set the diode type first.
 8. Press generate and copy the line.
 
 # Usage in LtSpice
-Press the button for a spice command and put the model line there. You can put the line somewhere on your schematic.
+Press the button for a spice command and put the model line there. You can put the line somewhere on your schematic. It should look like
+
+    .model 1N4148_wk D(IS=1.57E-9 RS=0.353 N=1.861 Tnom=20.0 BV=100.000 IBV=100.00E-6 NBV=2.000 Cjo=1.00E-12 M=0.080 Vj=0.920 TT=1.60E-9)
+
 Put a new diode on the Schematic and change the modelname 'D' to the name of the diode.
 
