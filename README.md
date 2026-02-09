@@ -8,7 +8,7 @@ A spice diode model generator
 1. Get the datasheet of the diode.
 2. Enter the name and the type of the diode. Each type you change the diode type, a few settings will be changed to the defaults for this type.
 So be shure to set the diode type first.
-3. optional:  Set the energy gap Eg and the saturation current temperature exponent Xti. If there is no other information, leave them at the default values. Eg is important for the leakage current, Xti changes the temperature change of the leakage current. Both values define also the forward voltage.
+3. optional:  Set the energy gap Eg and the saturation current temperature exponent Xti. If there is no other information, leave them at the default values. Eg is important for the leakage current, Xti changes the temperature change of the leakage current. Both values define also the forward voltage changes with temperature.
 4. Model the forward current: From the diodes Forward Current vs. Forward Voltage plot, get 3 pairs of Vf/If for the same temperature. These three point should be not near together, for example 0.01mA, 1mA, 100mA. If possible choose a curve near 27°C. Enter all three pairs as V1/I1, V2/I2, V3/I3 and the choosen temperature.
 5. Model the breakdown behaviour: at least the breakdown voltage V(BR) and the breakdown current should be entered. If a breakdown plot is given in the datasheet, you may fine tune the model with the breakdown steepness parameter.
 6. Model the diode capacitance: Locate the diode capacitance for VR = 0V, that means no diode voltage. Enter this value into the Cjo field. If no more data is available, set all four values for  C1/Vr1 and C2/Vr2 to zero. If you have an capacitance plot, enter from the curve two capacitance / reverse voltage points.
