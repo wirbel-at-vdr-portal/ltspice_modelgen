@@ -7,7 +7,7 @@ A spice VDMOS model generator
 
 1. Get the datasheet of the MOSFET.
 2. Enter the name of the MOSFET. Take care, that you choose n-channel or p-channel correctly. Most MOSFET of interest are n-channel.
-3. From the datasheet, enter the Gate threshold voltage VGS(th), usually around 3..4 volts.
+3. From the datasheet, enter the Gate threshold voltage VGS(th) around room temperature (~ 25°C), usually around 3..4 volts.
 4. Lookup the transconductance gfs in the datasheet and find to which drain current this value belongs. Put this drain current in the next field, usually a few ampere.
 5. Find the plot 'transfer characteristic', drain current ID vs VGS, and the VGS where at ~25°C the drain current from #4 flows. Put this voltage into the next field, this value should be greater than #3.
 6. Enter the RDS(on) value from the datasheet. This value is from tens of an milliohms to several ohms.
