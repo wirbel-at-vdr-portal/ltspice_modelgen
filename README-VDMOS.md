@@ -19,9 +19,9 @@ IMPORTANT: for p-channel MOSFET, just check the checkbox p-channel, but enter po
 10. Enter the reverse capacitance Crss for the maximum drain-source voltage VDS. You need to find the plot of Crss = f(VDS) and find the value for the highest drain-source voltage VDS.
 11. Enter the reverse capacitance Crss for VDS = 0. You need to find the plot of Crss = f(VDS) and find the value for VDS = 0.
 12. Enter the output capacitance Coss for VDS = 0. You need to find the plot of Coss = f(VDS) and find the value for VDS = 0.
-13. optional: find the reverse recovery time trr of the MOSFETs body diode. Enter the value and lookup for which body diode current this value is defined.
+13. optional: find the reverse recovery time trr of the MOSFETs body diode. Enter the value and lookup for which body diode current this value is defined. If you skipped this step, skip also #14 and #15 and set all three values to zero.
 14. if you did #13: Enter the reverse recovery charge Qrr of the MOSFETs body diode.
-15. if you did #13: Enter the current value for trr, Qrr. If you skipped any of #13..#15, set all three values to zero.
+15. if you did #13: Enter the current value for trr, Qrr.
 16. find the plot 'transfer characteristics', showing ID = f(VGS). Lookup the Gate threshold voltage VGS(th) for the highest plotted temperature. The Gate threshold voltage is the voltage, where ID start to rise from zero. If you don't have this plot, uncheck the checkbox 'add gate threshold voltage at higher temperature'.
 17. Press generate and copy the line.
 
