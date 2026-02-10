@@ -2,7 +2,7 @@
 A spice diode model generator and a VDMOS n-channel or p-channel power MOSFET model generator.
 
 ![Image](examples/diode_modelgen.jpg)
-![Image](examples/diode_modelgen.jpg)
+![Image](examples/vdmos_modelgen.jpg)
 
 
 # Further Details
