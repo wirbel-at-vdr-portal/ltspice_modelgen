@@ -5,6 +5,8 @@ A spice VDMOS model generator
 
 # Howto
 
+IMPORTANT: for p-channel MOSFET, just check the checkbox p-channel, but enter positive numbers for voltage and current.
+
 1. Get the datasheet of the MOSFET.
 2. Enter the name of the MOSFET. Take care, that you choose n-channel or p-channel correctly. Most MOSFET of interest are n-channel.
 3. From the datasheet, enter the Gate threshold voltage VGS(th) around room temperature (~ 25°C), usually around 3..4 volts.
