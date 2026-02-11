@@ -37,3 +37,12 @@ Press the button for a spice command and put the model line there. You can put t
 
 Put a new NMOS on the Schematic and change the modelname to the name of the MOSFET model.
 
+# Validating the results
+## Checking the output characteristic
+1. Place a nmos and name the value 20N60C3, connect source to ground. Add a voltage V1 for the gate and one voltage V2 for the drain.
+2. Type 'S' and add the .model line
+3. Type 'S' again and add a DC sweep. the command sweeps V2 from 0..25V and steps V1 for the traces as in the datasheet.
+
+    .dc V2 0 25 0.1 V1 list 4.5 5 5.5 6 6.5 7
+
+4. Run the simulation and plot the drain current.
